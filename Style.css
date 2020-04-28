@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#DivHeader{
+    background-color: #37FF00;
+}
+h1{
+    color: #F8FFFE;
+    margin-left: 10PX;
+}
+header{
+    background-color: #0CE856;
+    padding-bottom: 30PX;
+}
+#linksList li{
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #C7E80C;
+}
+#linksList :hover{
+    background-color: #FFDD0D;
+}
+a{
+    text-decoration: none;
+    color: #F8FFFE;
+}
+#courseIMG{
+width: 150px;
+margin: 70PX; 
+}
+ul li{
+    display: inline;
+    }
+#FirstGroup{
+    /* padding-bottom: 100px; */
+    border-color: #0CE856;
+}
+#linksList{
+    margin-top: 20PX;
+    margin-left: 10PX;
+}
+ul li span{
+    margin-left: 200px;
+}
+span{
+    text-align: center;
+}
+main{
+    height: 800px;
+}
