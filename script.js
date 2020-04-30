@@ -1,3 +1,4 @@
+"use strict";
 var ask = prompt("What is your name");
 
 document.getElementById("name").innerHTML="Hi "+ ask + ".";
@@ -23,10 +24,3 @@ if (ask3 == true){
 else{
 document.body.style.background = "rgb(92, 236, 255)";
 }
-/*if (ask3 == "yes")
-{
-    
-}
-else{
-    
-}*/
