@@ -50,3 +50,13 @@ span{
 main{
     height: 800px;
 }
+#name {
+    margin: 20px;
+    font-size: 25px;
+}
+#my-p{
+    margin-left: 20px;
+}
+#my-p2{
+    margin-left: 20px;
+}
