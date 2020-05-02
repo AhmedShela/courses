@@ -28,5 +28,22 @@ else{
 document.body.style.backgroundColor = "#0CE856";
 }
 }
+function FeedBack2(){
+    var ask = prompt("Do you like my page");
+    while(ask != "yes"){
+        ask = prompt("Do you like my page");
+    }
+}
+function greatuser(){
+    var item = '';
+
+    var ask4 = prompt("how many times you want us to Greating you");
+    for (var i=0;i<ask4;i++){
+        var id = i + 1;
+     item = item + "<h4> " + id + " Hi " + ask + " </h4>";
+    }
+    return item;
+}
 FeedBack();
+FeedBack2()
 backgroundColor();
