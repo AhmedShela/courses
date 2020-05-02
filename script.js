@@ -1,4 +1,14 @@
 "use strict";
+function greatuser(){
+    var item = '';
+
+    var ask4 = prompt("how many times you want us to Greating you");
+    for (var i=0;i<ask4;i++){
+        var id = i + 1;
+     item = item + "<h4> " + id + " Hi " + ask + " </h4>";
+    }
+    return item;
+}
 var ask = prompt("What is your name");
 
 document.getElementById("name").innerHTML="Hi "+ ask + ".";
@@ -6,7 +16,8 @@ document.getElementById("name").innerHTML="Hi "+ ask + ".";
 var dob = prompt("what year is your birth year ?");
 
 var age = 2020 - dob;
-document.getElementById("my-p").innerHTML="you'r a "+ age + " years old so please check out these courses";
+console.log(age)
+// document.getElementById("my-p").innerHTML = "you'r a "+ age + " years old so please check out these courses";
 
 function FeedBack(){
     var ask2 = prompt("did you find what you looking for ?");
@@ -34,16 +45,7 @@ function FeedBack2(){
         ask = prompt("Do you like my page");
     }
 }
-function greatuser(){
-    var item = '';
 
-    var ask4 = prompt("how many times you want us to Greating you");
-    for (var i=0;i<ask4;i++){
-        var id = i + 1;
-     item = item + "<h4> " + id + " Hi " + ask + " </h4>";
-    }
-    return item;
-}
 FeedBack();
 FeedBack2()
 backgroundColor();
